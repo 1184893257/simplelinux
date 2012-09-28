@@ -1,4 +1,4 @@
-[content]: README.md#content
+[content]: https://github.com/1184893257/simplelinux/blob/master/README.md#content
 
 [»ØÄ¿Â¼][content]
 

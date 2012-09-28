@@ -44,5 +44,5 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 
 <a name="content"></a>
 
-* [linux0.01进程时间片的消耗和再生](process0.01.md#top)
+* [linux0.01进程时间片的消耗和再生](https://github.com/1184893257/simplelinux/blob/master/process0.01.md#top)
 * linux2.6.XX进程切换和时间片再生
