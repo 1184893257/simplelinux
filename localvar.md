@@ -52,7 +52,7 @@
 	gcc -S -o inc.s inc.c
 
 `　　`生成了汇编源文件 inc.s，
-现在我们只关心其中的红色字体部分：
+现在我们只关心其中的<b>粗体</b>部分：
 
 <pre><code>    .file	"inc.c"
 	.section	.rodata
@@ -65,7 +65,7 @@ main:
 	pushl	%ebp
 	movl	%esp, %ebp
 	andl	$-16, %esp
-	subl	$32, %esp<font color="red">
+	subl	$32, %esp<b>
 	movl	$3, 28(%esp)
 	addl	$1, 28(%esp)
 	addl	$1, 28(%esp)
@@ -73,7 +73,7 @@ main:
 	addl	%eax, %eax
 	addl	$1, 28(%esp)
 	addl	28(%esp), %eax
-	movl	%eax, 24(%esp)</font>
+	movl	%eax, 24(%esp)</b>
 	movl	$.LC0, %eax
 	movl	24(%esp), %edx
 	movl	%edx, 4(%esp)
@@ -96,10 +96,11 @@ AT&T 汇编与 Intel 格式的汇编有些差异，
 　　首先是寄存器的命名格式不同，
 在 Intel 格式的寄存器前加了个 %：eax 变成了 %eax  
 然后就是双元指令的操作数的传递方向与 Intel 的刚好相反：
-mov eax，ebx（相当于 eax=ebx;） 变成了 movl %ebx，%eax  
+mov eax，ebx（相当于 eax=ebx;） 变成了 movl %ebx，%eax
+（左向右传值）  
 还有其他一些差别，不过还是容易看明白的。
 
-　　给红色部分加点注释吧：
+　　给粗体部分加点注释吧：
 
 	movl	$3, 28(%esp)	# i = 3;
 	addl	$1, 28(%esp)	# ++i; // 4
@@ -140,7 +141,7 @@ VS 右击 C 源代码编辑区选择"转到反汇编"，打开反汇编窗体。
 ## 小结
 
 　　从这个例子中我们应该吸取经验：
-**被实施递增（递减）操作的变量不应该在表达式中多次出现**，
+<b>被实施递增（递减）操作的变量不应该在表达式中多次出现</b>，
 否则结果就不受我们控制了，而是编译器猜的。
 
 　　如果想得到结果 15 的话，程序可以改成这样：
