@@ -29,8 +29,8 @@
 
 	gcc -E -o max2.c max.c
 
-`　　`*这里的 -o max2.c 是让 gcc 
-把要输出东西输出到 max2.c 文件中。*
+`　　`<em>这里的 -o max2.c 是让 gcc 
+把要输出东西输出到 max2.c 文件中</em>。
 
 　　妖怪！快快现形吧：
 
