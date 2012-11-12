@@ -142,7 +142,11 @@ VS 右击 C 源代码编辑区选择"转到反汇编"，打开反汇编窗体。
 
 　　从这个例子中我们应该吸取经验：
 <b>被实施递增（递减）操作的变量不应该在表达式中多次出现</b>，
-否则结果就不受我们控制了，而是编译器猜的。
+否则结果就不受我们控制了，而是被编译器自由发挥：
+
+　　C 标准规定：两个[序列点](http://blog.csdn.net/huiguixian/article/details/6438613)之间，
+程序执行的顺序可以是任意的。
+这样做给了编译器优化的空间。[[1]](#tip1)
 
 　　如果想得到结果 15 的话，程序可以改成这样：
 
@@ -165,3 +169,6 @@ VS 右击 C 源代码编辑区选择"转到反汇编"，打开反汇编窗体。
 悟空很有潜力啊！元芳，你怎么看？
 
 [回目录][content]
+
+<a name="tip1"></a>
+[1] 由 ohyeah 指出：[http://rs.xidian.edu.cn/forum.php?mod=redirect&goto=findpost&ptid=412474&pid=8298351](http://rs.xidian.edu.cn/forum.php?mod=redirect&goto=findpost&ptid=412474&pid=8298351)
