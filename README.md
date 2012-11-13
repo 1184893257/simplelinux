@@ -46,11 +46,11 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 
 * 解剖C语言
 	1. [照妖镜和火眼金睛](https://github.com/1184893257/simplelinux/blob/master/gcc.md#top) \[2012/11/8更新](3)
-	2. [局部变量](https://github.com/1184893257/simplelinux/blob/master/localvar.md#top) \[2012/11/7上线](4)
+	2. [局部变量](https://github.com/1184893257/simplelinux/blob/master/localvar.md#top) \[2012/11/12更新](4)
 	3. [全局变量](https://github.com/1184893257/simplelinux/blob/master/globalvar.md#top) \[2012/11/8上线](5)
 	4. [函数调用](https://github.com/1184893257/simplelinux/blob/master/call.md#top) \[2012/11/9上线](6)
 	5. [值传递](https://github.com/1184893257/simplelinux/blob/master/byval.md#top) \[2012/11/11上线](7)
-	6. 数组与指针 \[预计2012/11/13上线](8)
+	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/11/13上线](8)
 	7. 字符串 \[预计2012/11/15上线](9)
 	8. 结构体 \[预计2012/11/17上线](10)
 	9. 奇怪的宏 \[预计2012/11/19上线](11)
