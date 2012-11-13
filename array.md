@@ -57,7 +57,7 @@ main:
 	movl	(%eax), %eax	#-初始化b
 	movl	%eax, 36(%esp)	#/
 </code></pre></td>
-<td valign="bottom"><img src="../img/array1.png" /></td>
+<td valign="bottom"><img src="http://fmn.rrfmn.com/fmn059/20121113/1850/original_fmSH_48030000e812125c.jpg" /></td>
 </tr>
 
 <tr><td>
@@ -69,7 +69,7 @@ main:
 	movl	%eax, (%esp)
 	call	printf		#第一次调用 printf 函数
 </code></pre></td>
-<td valign="bottom"><img src="../img/array2.png" /></td>
+<td valign="bottom"><img src="http://fmn.rrimg.com/fmn062/20121113/1850/original_6dpg_28e80000e7fc1191.jpg" /></td>
 </tr>
 
 <tr><td>
@@ -81,7 +81,7 @@ main:
 	movl	%eax, (%esp)
 	call	printf		#第二次调用 printf 函数
 </code></pre></td>
-<td valign="bottom"><img src="../img/array3.png" /></td>
+<td valign="bottom"><img src="http://fmn.rrimg.com/fmn056/20121113/1850/original_ECol_44540000c23f1190.jpg" /></td>
 </tr>
 
 <tr><td colspan="2">
