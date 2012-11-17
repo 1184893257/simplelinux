@@ -52,7 +52,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	5. [值传递](https://github.com/1184893257/simplelinux/blob/master/byval.md#top) \[2012/11/11上线](7)
 	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/11/13上线](8)
 	7. [字符串](https://github.com/1184893257/simplelinux/blob/master/string.md#top) \[2012/11/15上线](9)
-	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/struct.md#top) \[预计2012/11/17上线](10)
+	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/c_struct.md#top) \[2012/11/17上线](10)
 	9. 奇怪的宏 \[预计2012/11/19上线](11)
 	10. 内存对齐 \[预计2012/11/21上线](12)
 * 内核小知识
