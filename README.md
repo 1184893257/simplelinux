@@ -54,7 +54,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	7. [字符串](https://github.com/1184893257/simplelinux/blob/master/string.md#top) \[2012/11/15上线](9)
 	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/struct.md#top) \[2012/11/17上线](10)
 	9. [奇怪的宏](https://github.com/1184893257/simplelinux/blob/master/macro.md#top) \[2012/11/19上线](11)
-	10. [内存对齐](https://github.com/1184893257/simplelinux/blob/master/align.md#top) \[2012/11/21上线](12)
+	10. [内存对齐](https://github.com/1184893257/simplelinux/blob/master/align.md#top) \[2012/11/28更新](12)
 	11. [函数帧](https://github.com/1184893257/simplelinux/blob/master/frame.md#top) \[2012/11/24上线](13)
 	12. [函数帧应用一：谁调用了main？](https://github.com/1184893257/simplelinux/blob/master/main.md#top) \[2012/11/27上线](14)
 	13. 函数帧应用二：所有递归都可以变循环 \[预计2012/11/30上线](15)
