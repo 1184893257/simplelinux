@@ -57,9 +57,9 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	10. [内存对齐](https://github.com/1184893257/simplelinux/blob/master/align.md#top) \[2012/11/28更新](12)
 	11. [函数帧](https://github.com/1184893257/simplelinux/blob/master/frame.md#top) \[2012/11/24上线](13)
 	12. [函数帧应用一：谁调用了main？](https://github.com/1184893257/simplelinux/blob/master/main.md#top) \[2012/11/27上线](14)
-	13. 函数帧应用二：所有递归都可以变循环 \[预计2012/11/30上线](15)
+	13. [函数帧应用二：所有递归都可以变循环](https://github.com/1184893257/simplelinux/blob/master/recur.md#top) \[2012/11/30上线](15)
 	14. 未初始化全局变量 \[预计2012/12/3上线](16)
-	15. 进程内存分布 (17)
+	15. 进程内存分布 \[预计2012/12/6上线](17)
 * 内核小知识
 	1. [linux0.01进程时间片的消耗和再生](https://github.com/1184893257/simplelinux/blob/master/process0.01.md#top) \[2012/11/7更新](1)
 	2. [linux2.6.XX进程切换和时间片再生](https://github.com/1184893257/simplelinux/blob/master/process2.6.md#top) \[2012/11/7上线](2)
