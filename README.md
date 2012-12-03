@@ -58,7 +58,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	11. [函数帧](https://github.com/1184893257/simplelinux/blob/master/frame.md#top) \[2012/11/24上线](13)
 	12. [函数帧应用一：谁调用了main？](https://github.com/1184893257/simplelinux/blob/master/main.md#top) \[2012/11/27上线](14)
 	13. [函数帧应用二：所有递归都可以变循环](https://github.com/1184893257/simplelinux/blob/master/recur.md#top) \[2012/11/30上线](15)
-	14. [未初始化全局变量](https://github.com/1184893257/simplelinux/blob/master/bss.md#top) \[预计2012/12/3上线](16)
+	14. [未初始化全局变量](https://github.com/1184893257/simplelinux/blob/master/bss.md#top) \[2012/12/3上线](16)
 	15. 进程内存分布 \[预计2012/12/6上线](17)
 	16. 编译优化 \[预计2012/12/9上线](18)
 	17. static变量 (19)
