@@ -63,9 +63,9 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	16. [编译优化](https://github.com/1184893257/simplelinux/blob/master/optimize.md#top) \[2012/12/9上线](18)
 	17. [static变量 及 作用域控制](https://github.com/1184893257/simplelinux/blob/master/static.md#top) \[2012/12/12上线](19)
 	18. [变量名、函数名](https://github.com/1184893257/simplelinux/blob/master/name.md#top) \[2012/12/15上线](20)
-	19. 函数指针 \[预计2012/12/18上线](21)
+	19. [函数指针](https://github.com/1184893257/simplelinux/blob/master/pfunc.md#top) \[2012/12/18上线](21)
 	20. 可变参数 \[预计2012/12/21上线](22)
-	21. C语言的栈是静态的 (23)
+	21. C语言的栈是静态的 \[预计2012/12/23上线](23)
 	22. 内联汇编 (24)
 	23. 汇编实现的动态栈 (25)
 * 内核小知识
