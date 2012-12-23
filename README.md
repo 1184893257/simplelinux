@@ -50,7 +50,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	3. [全局变量](https://github.com/1184893257/simplelinux/blob/master/globalvar.md#top) \[2012/11/8上线](5)
 	4. [函数调用](https://github.com/1184893257/simplelinux/blob/master/call.md#top) \[2012/11/9上线](6)
 	5. [值传递](https://github.com/1184893257/simplelinux/blob/master/byval.md#top) \[2012/11/11上线](7)
-	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/11/13上线](8)
+	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/12/23更新](8)
 	7. [字符串](https://github.com/1184893257/simplelinux/blob/master/string.md#top) \[2012/11/15上线](9)
 	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/struct.md#top) \[2012/11/17上线](10)
 	9. [奇怪的宏](https://github.com/1184893257/simplelinux/blob/master/macro.md#top) \[2012/11/19上线](11)
@@ -65,7 +65,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	18. [变量名、函数名](https://github.com/1184893257/simplelinux/blob/master/name.md#top) \[2012/12/15上线](20)
 	19. [函数指针](https://github.com/1184893257/simplelinux/blob/master/pfunc.md#top) \[2012/12/18上线](21)
 	20. [可变参数](https://github.com/1184893257/simplelinux/blob/master/varargs.md#top) \[2012/12/21上线](22)
-	21. C语言的栈是静态的 \[预计2012/12/23上线](23)
+	21. [C语言的栈是静态的](https://github.com/1184893257/simplelinux/blob/master/staticstack.md#top) \[2012/12/23上线](23)
 	22. 内联汇编 \[预计2012/12/24上线](24)
 	23. 汇编实现的动态栈 \[预计2012/12/25上线](25)
 * 内核小知识
