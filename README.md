@@ -66,7 +66,7 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 	19. [函数指针](https://github.com/1184893257/simplelinux/blob/master/pfunc.md#top) \[2012/12/18上线](21)
 	20. [可变参数](https://github.com/1184893257/simplelinux/blob/master/varargs.md#top) \[2012/12/21上线](22)
 	21. [C语言的栈是静态的](https://github.com/1184893257/simplelinux/blob/master/staticstack.md#top) \[2012/12/23上线](23)
-	22. 内联汇编 \[预计2012/12/24上线](24)
+	22. [内联汇编](https://github.com/1184893257/simplelinux/blob/master/inlineasm.md#top) \[2012/12/24上线](24)
 	23. 汇编实现的动态栈 \[预计2012/12/25上线](25)
 * 内核小知识
 	1. [linux0.01进程时间片的消耗和再生](https://github.com/1184893257/simplelinux/blob/master/process0.01.md#top) \[2012/11/7更新](1)
