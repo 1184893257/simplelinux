@@ -45,29 +45,52 @@ linux 和 C 语言方面的底层知识。那些既想了解底层
 <a name="content"></a>
 
 * 解剖C语言
-	1. [照妖镜和火眼金睛](https://github.com/1184893257/simplelinux/blob/master/gcc.md#top) \[2012/11/8更新](3)
-	2. [局部变量](https://github.com/1184893257/simplelinux/blob/master/localvar.md#top) \[2012/11/12更新](4)
-	3. [全局变量](https://github.com/1184893257/simplelinux/blob/master/globalvar.md#top) \[2012/11/8上线](5)
-	4. [函数调用](https://github.com/1184893257/simplelinux/blob/master/call.md#top) \[2012/11/9上线](6)
-	5. [值传递](https://github.com/1184893257/simplelinux/blob/master/byval.md#top) \[2012/11/11上线](7)
-	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/12/23更新](8)
-	7. [字符串](https://github.com/1184893257/simplelinux/blob/master/string.md#top) \[2012/11/15上线](9)
-	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/struct.md#top) \[2012/11/17上线](10)
-	9. [奇怪的宏](https://github.com/1184893257/simplelinux/blob/master/macro.md#top) \[2012/11/19上线](11)
-	10. [内存对齐](https://github.com/1184893257/simplelinux/blob/master/align.md#top) \[2012/11/28更新](12)
-	11. [函数帧](https://github.com/1184893257/simplelinux/blob/master/frame.md#top) \[2012/11/24上线](13)
-	12. [函数帧应用一：谁调用了main？](https://github.com/1184893257/simplelinux/blob/master/main.md#top) \[2012/11/27上线](14)
-	13. [函数帧应用二：所有递归都可以变循环](https://github.com/1184893257/simplelinux/blob/master/recur.md#top) \[2012/11/30上线](15)
-	14. [未初始化全局变量](https://github.com/1184893257/simplelinux/blob/master/bss.md#top) \[2012/12/3上线](16)
-	15. [进程内存分布](https://github.com/1184893257/simplelinux/blob/master/mem.md#top) \[2012/12/6上线](17)
-	16. [编译优化](https://github.com/1184893257/simplelinux/blob/master/optimize.md#top) \[2012/12/9上线](18)
-	17. [static变量 及 作用域控制](https://github.com/1184893257/simplelinux/blob/master/static.md#top) \[2012/12/12上线](19)
-	18. [变量名、函数名](https://github.com/1184893257/simplelinux/blob/master/name.md#top) \[2012/12/15上线](20)
-	19. [函数指针](https://github.com/1184893257/simplelinux/blob/master/pfunc.md#top) \[2012/12/18上线](21)
-	20. [可变参数](https://github.com/1184893257/simplelinux/blob/master/varargs.md#top) \[2012/12/21上线](22)
-	21. [C语言的栈是静态的](https://github.com/1184893257/simplelinux/blob/master/staticstack.md#top) \[2012/12/23上线](23)
-	22. [内联汇编](https://github.com/1184893257/simplelinux/blob/master/inlineasm.md#top) \[2012/12/24上线](24)
-	23. [汇编实现的动态栈](https://github.com/1184893257/simplelinux/blob/master/dynamicstack.md#top) \[2012/12/25上线](25)
+	1. [照妖镜和火眼金睛](https://github.com/1184893257/simplelinux/blob/master/gcc.md#top) \[2012/11/8更新](3)  
+	怎么获得C语言翻译后的汇编代码，怎么获得消除宏的C源程序
+	2. [局部变量](https://github.com/1184893257/simplelinux/blob/master/localvar.md#top) \[2012/11/12更新](4)  
+	i=3; (++i)+(++i)+(++i) 不同编译器结果不同，怎么看它们的运算过程。
+	3. [全局变量](https://github.com/1184893257/simplelinux/blob/master/globalvar.md#top) \[2012/11/8上线](5)  
+	全局变量与局部变量在访问方式上有什么不同
+	4. [函数调用](https://github.com/1184893257/simplelinux/blob/master/call.md#top) \[2012/11/9上线](6)  
+	调用一个函数的前前后后
+	5. [值传递](https://github.com/1184893257/simplelinux/blob/master/byval.md#top) \[2012/11/11上线](7)  
+	C语言只有值传递，怎么修改外部变量
+	6. [数组与指针](https://github.com/1184893257/simplelinux/blob/master/array.md#top) \[2012/12/23更新](8)  
+	数组的起始地址存在哪儿？
+	7. [字符串](https://github.com/1184893257/simplelinux/blob/master/string.md#top) \[2012/11/15上线](9)  
+	为什么有的字符串不能修改
+	8. [结构体](https://github.com/1184893257/simplelinux/blob/master/struct.md#top) \[2012/11/17上线](10)  
+	结构体与子元素什么关系，数组不能复制？
+	9. [奇怪的宏](https://github.com/1184893257/simplelinux/blob/master/macro.md#top) \[2012/11/19上线](11)  
+	do{...} while(0)是何用意
+	10. [内存对齐](https://github.com/1184893257/simplelinux/blob/master/align.md#top) \[2012/11/28更新](12)  
+	为什么要进行内存对齐，怎么关闭内存对齐
+	11. [函数帧](https://github.com/1184893257/simplelinux/blob/master/frame.md#top) \[2012/11/24上线](13)  
+	函数的局部环境：函数帧
+	12. [函数帧应用一：谁调用了main？](https://github.com/1184893257/simplelinux/blob/master/main.md#top) \[2012/11/27上线](14)  
+	不复杂
+	13. [函数帧应用二：所有递归都可以变循环](https://github.com/1184893257/simplelinux/blob/master/recur.md#top) \[2012/11/30上线](15)  
+	真的可以
+	14. [未初始化全局变量](https://github.com/1184893257/simplelinux/blob/master/bss.md#top) \[2012/12/3上线](16)  
+	未初始化全局变量 不跟 初始化全局变量 存一块儿
+	15. [进程内存分布](https://github.com/1184893257/simplelinux/blob/master/mem.md#top) \[2012/12/6上线](17)  
+	全局变量、堆、栈 在哪儿？访问它们的特点
+	16. [编译优化](https://github.com/1184893257/simplelinux/blob/master/optimize.md#top) \[2012/12/9上线](18)  
+	C语言比汇编慢，怎么优化编译过程
+	17. [static变量 及 作用域控制](https://github.com/1184893257/simplelinux/blob/master/static.md#top) \[2012/12/12上线](19)  
+	压缩变量的作用域，提高源代码的可读性
+	18. [变量名、函数名](https://github.com/1184893257/simplelinux/blob/master/name.md#top) \[2012/12/15上线](20)  
+	变量名、函数名在哪里终结，有什么用？
+	19. [函数指针](https://github.com/1184893257/simplelinux/blob/master/pfunc.md#top) \[2012/12/18上线](21)  
+	函数指针跟普通指针有什么区别
+	20. [可变参数](https://github.com/1184893257/simplelinux/blob/master/varargs.md#top) \[2012/12/21上线](22)  
+	可变参数怎么实现的？变参函数的可行性？
+	21. [C语言的栈是静态的](https://github.com/1184893257/simplelinux/blob/master/staticstack.md#top) \[2012/12/23上线](23)  
+	变参函数力不能及的地方
+	22. [内联汇编](https://github.com/1184893257/simplelinux/blob/master/inlineasm.md#top) \[2012/12/24上线](24)  
+	gcc 以及 VC 的内联汇编
+	23. [汇编实现的动态栈](https://github.com/1184893257/simplelinux/blob/master/dynamicstack.md#top) \[2012/12/25上线](25)  
+	实现一个运行时的接受可变参数的printf
 * 内核小知识
 	1. [linux0.01进程时间片的消耗和再生](https://github.com/1184893257/simplelinux/blob/master/process0.01.md#top) \[2012/11/7更新](1)
 	2. [linux2.6.XX进程切换和时间片再生](https://github.com/1184893257/simplelinux/blob/master/process2.6.md#top) \[2012/11/7上线](2)
